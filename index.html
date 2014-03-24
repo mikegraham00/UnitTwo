@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
@@ -13,7 +14,12 @@
         <link rel="stylesheet" href="css/foundation.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <script src="js/modernizr-2.0.6.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -23,10 +29,10 @@
         <!-- Add your site or application content here -->
         <header class="site-header">
         	<div class="row">
-	        	<div class="medium-6 columns">
+	        	<div class="large-6 columns">
 	        		<h1 class="logo">LOGO HERE</h1>
 	        	</div>
-	        	<div class="medium-6 columns">
+	        	<div class="large-6 columns">
 	        		<nav class="main-nav">
 	        			<a href="#">Services</a>
 	        			<a href="#">Portfolio</a>
@@ -37,56 +43,77 @@
         </header>
 
         <div class="row top-text">
-        	<div class="full">
+        	<div class="small-12 columns">
         		<p>
 	        		About us dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
         		</p>
         	</div>
         </div>
 
+        <div class="section-title"><h2>Featured Website Projects</h2></div>
         <div class="row featured-project">
-        	<div class="folio-desc medium-3 columns">
-        		<h2>Westlake Plastic Surgery</h2>
-        		<p>This is a description of the client and the project. It will be very brief and just 
-        			get people interested.</p>
+        	<div class="flex large-4 medium-6 small-12 columns">
+        		<div class="folio-desc">
+	        		<div class="desc-content">
+	        		<h2>Westlake Plastic Surgery</h2>
+	        		<p>This is a description of the client and the project. It will be very brief and just 
+	        			get people interested.</p>
+	        		<p><a href="#">Learn More About This Project</a></p>
+	        		</div>
+        		</div>
         	</div>
-        	<div class="folio-screenshot medium-6 columns">
+        	<div class="folio-screenshot large-8 medium-6 small-12 columns">
         		<img src="/img/portfolio-images/WestlakePlasticSurgery-home.jpg" />
         	</div>
         </div>
         <div class="row featured-project">
-        	<div class="folio-screenshot medium-7 columns">
+        	<div class="folio-screenshot large-7 medium-6 small-12 columns">
         		<img src="/img/portfolio-images/Mcaden-home.jpg">
         	</div>
-        	<div class="folio-desc medium-5 columns">
-        		<h2>McAden Builders</h2>
-        		<p>This is a description of the client and the project. It will be very brief and just 
-        			get people interested.</p>
+        	<div class="flex large-5 medium-6 small-12 columns">
+        		<div class="folio-desc" >
+	        		<div class="desc-content">
+	        		<h2>McAden Builders</h2>
+	        		<p>This is a description of the client and the project. It will be very brief and just 
+	        			get people interested.</p>
+	        		<p><a href="#" >Learn More About This Project</a></p>
+	        		</div>
+        		</div>
         	</div>
         </div>
         <div class="row featured-project">
-        	<div class="folio-desc medium-4 columns">
-        		<h2>Apollo Endosurgery</h2>
-        		<p>This is a description of the client and the project. It will be very brief and just 
-        			get people interested.</p>
+        	<div class="flex large-4 medium-6 small-12 columns">
+        		<div class="folio-desc">
+	        		<div class="desc-content">
+	        		<h2>Apollo Endosurgery</h2>
+	        		<p>This is a description of the client and the project. It will be very brief and just 
+	        			get people interested.</p>
+	        		<p><a href="#" >Learn More About This Project</a></p>
+	        		</div>
+	        	</div>
         	</div>
-        	<div class="folio-screenshot medium-8 columns">
+        	<div class="folio-screenshot large-8 medium-6 small-12 columns">
         		<img src="/img/portfolio-images/ApolloEndosurgery-home.jpg">
         	</div>
         </div>
         <div class="row featured-project">
-        	<div class="folio-desc medium-7 columns">
+        	<div class="flex folio-screenshot large-7 medium-6 small-12 columns">
         		<img src="/img/portfolio-images/TravisPeak-home.jpg">
         	</div>
-        	<div class="folio-screenshot medium-5 columns">
-        		<h2>Travis Peak Resources</h2>
-        		<p>This is a description of the client and the project. It will be very brief and just 
-        			get people interested.</p>
+        	<div class="flex large-5 medium-6 small-12 columns">
+        		<div class="folio-desc">
+	        		<div class="desc-content">
+	        		<h2>Travis Peak Resources</h2>
+	        		<p>This is a description of the client and the project. It will be very brief and just 
+	        			get people interested.</p>
+	        		<p><a href="#" >Learn More About This Project</a></p>
+	        		</div>
+        		</div>
         	</div>
         </div>
 
         <div class="row">
-        	<div class="medium-4 columns serivce-block">
+        	<div class="large-4 columns serivce-block">
         		<h2 class="web-responsive">Responsive Design</h2>
         		<p>
         		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -97,7 +124,7 @@
         		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
         		</p>
         	</div>
-        	<div class="medium-4 columns service-block">
+        	<div class="large-4 columns service-block">
         		<h2 class="web-development">Develoment</h2>
         		<p>
         		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -108,7 +135,7 @@
         		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
         		</p>
         	</div>
-        	<div class="medium-4 columns">
+        	<div class="large-4 columns">
         		<h2 class="web-maintenance">Maintenance</h2>
         		<p>
         		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -129,7 +156,7 @@
         </div>
 
         <div class="row">
-        	<div class="medium-4 columns service-block">
+        	<div class="large-4 columns service-block">
         		<h2>Network and Server Infrastructure</h2>
         		<p>
         		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -140,7 +167,7 @@
         		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
         		</p>
         	</div>
-        	<div class="medium-4 columns service-block">
+        	<div class="large-4 columns service-block">
         		<h2>Hardware and Desktop Support</h2>
         		<p>
         		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -151,7 +178,7 @@
         		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
         		</p>
         	</div>
-        	<div class="medium-4 columns service-block">
+        	<div class="large-4 columns service-block">
         		<h2>Exchange Email Hosting</h2>
         		<p>
         		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -162,7 +189,7 @@
         		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
         		</p>
         	</div>
-        	<div class="medium-4 columns service-block">
+        	<div class="large-4 columns service-block">
         		<h2>Sharepoint Hosting</h2>
         		<p>
         		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -173,7 +200,7 @@
         		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
         		</p>
         	</div>
-        	<div class="medium-4 columns service-block">
+        	<div class="large-4 columns service-block">
         		<h2>Other Service</h2>
         		<p>
         		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -188,7 +215,7 @@
 
         <footer>
         	<div class="row">
-        		<div class="medium-5 columns">
+        		<div class="large-5 columns">
         			<h2>We'd Love to hear from you</h2>
         			<p>
         				Mike Graham
@@ -199,7 +226,7 @@
         				email
         			</p>
         		</div>
-        		<div class="medium-7 columns">
+        		<div class="large-7 columns">
         			contact form.
         		</div>
         	</div>

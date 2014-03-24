@@ -1,7 +1,12 @@
 // STYLE.SCSS
 
-*, h1, h2, h3, h4, h5 {
-	font-family: 'Oxygen', HelveticaNeue, sans-serif;
+$body-font: 'Oxygen', HelveticaNeue, sans-serif;
+$body-font-color: #2d2d2d;
+
+*, p, li, em, blockquote, span, strong, tr, td, th {
+	font-family: $body-font;
+	color: $body-font-color;
+	font-weight: 300;
 }
 
 header, footer {
@@ -10,4 +15,118 @@ header, footer {
 
 body {
 	background: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5  {
+	font-family: $body-font;
+	font-weight: 300;
+	color: $body-font-color;
+}
+
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.2em; }
+h4, h5, h6 { font-size: 1em; }
+
+header.site-header {
+	min-height: 175px;
+}
+.flex {
+	display: flex;
+	
+}
+
+.section-title {
+	clear: both;
+	
+	//width: 100%;
+	//max-width: 62.5em;
+	text-align: center;
+	h2 {
+		margin-bottom: 60px;
+		padding-bottom: 8px;
+		border-bottom: 1px solid #222;
+		text-transform: uppercase;
+		font-weight: 300;
+		display: inline-block;
+	}
+}
+
+.top-text {
+	margin: 80px auto 60px;
+}
+
+.featured-project {
+	margin-bottom: 28px;
+	display: flex;
+	//align-items: center;
+	position: relative;
+	.folio-desc {
+		background-color: #fff;
+		//height: 100%;
+		//position: relative;
+		display: flex;
+
+		.desc-content {
+			align-self: center;
+			padding: 0 40px;
+		}
+		h2, p {
+			//display: inline-block;
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.folio-screenshot {
+		&:first-child {
+			padding-right: 0;
+		}
+		&:last-child {
+			padding-left: 0;
+		}
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+	.featured-project {
+		div:first-child {
+			padding-right: 0;
+		}
+		div:last-child {
+			//padding-left: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.featured-project {
+		display: flex;
+		flex-direction: column;
+	}
+	.folio-screenshot {
+		display: block;
+		order: -1;
+	}
+	.folio-desc {
+		display: block;
+		order: 1;
+		margin-top: 12px;
+		padding-top: 12px;
+		margin-bottom: 12px;
+		border-bottom: 1px solid #ccc;
+	}
+	.flex {
+		display: block;
+	}
+}
+
+.no-flexbox {
+	.flex, .featured-project, .folio-desc {
+		display: block;
+	}
+	.folio-desc {
+		background-color: transparent;
+		padding-top: 24px;
+	}
 }
