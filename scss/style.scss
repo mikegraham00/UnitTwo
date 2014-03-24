@@ -33,7 +33,7 @@ header.site-header {
 }
 .flex {
 	display: flex;
-	
+	flex-wrap: wrap;
 }
 
 .section-title {
@@ -73,6 +73,43 @@ header.site-header {
 		}
 		h2, p {
 			//display: inline-block;
+		}
+	}
+	.folio-screenshot {
+		display: flex;
+		//background-color: transparent;
+		//background-size: cover;
+		//background-repeat: no-repeat;
+	}
+}
+
+.featured-project:hover .folio-desc {
+	background-color: #222;
+	transition: all 1000ms;
+	.desc-content h2, .desc-content p {
+		color: #fff;
+		a {
+			color: #fff;
+		}
+	}
+}
+
+ul.services {
+	//padding: 0 15px;
+	.service-block {
+		h2 {
+			text-align: center;
+			text-transform: uppercase;
+			//border-bottom: 1px solid #222;
+			padding-top: 60px;
+			background: transparent top center no-repeat;
+			//background-size: contain;
+			&.web-responsive {
+				background-image: url(../assets/icon-responsive.png);
+			}
+			&.web-development {
+				background-image: url(../assets/icon-gears.png);
+			}
 		}
 	}
 }
