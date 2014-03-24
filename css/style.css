@@ -72,11 +72,24 @@ ul.services .service-block h2 {
   text-align: center;
   text-transform: uppercase;
   padding-top: 60px;
-  background: transparent top center no-repeat; }
+  background: transparent url(../assets/icon-callout.png) top center no-repeat; }
   ul.services .service-block h2.web-responsive {
     background-image: url(../assets/icon-responsive.png); }
   ul.services .service-block h2.web-development {
     background-image: url(../assets/icon-gears.png); }
+  ul.services .service-block h2.web-maintenance {
+    background-image: url(../assets/icon-pencil.png); }
+  ul.services .service-block h2.it-network {
+    background-image: url(../assets/icon-network.png); }
+  ul.services .service-block h2.it-email {
+    background-image: url(../assets/icon-email.png); }
+  ul.services .service-block h2.it-desktop {
+    background-image: url(../assets/icon-mouse.png); }
+  ul.services .service-block h2.it-sharepoint {
+    background-image: url(../assets/icon-sharepoint.png); }
+
+footer {
+  padding-top: 60px; }
 
 @media screen and (min-width: 1024px) {
   .folio-screenshot:first-child {

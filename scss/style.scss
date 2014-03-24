@@ -102,7 +102,7 @@ ul.services {
 			text-transform: uppercase;
 			//border-bottom: 1px solid #222;
 			padding-top: 60px;
-			background: transparent top center no-repeat;
+			background: transparent url(../assets/icon-callout.png) top center no-repeat;
 			//background-size: contain;
 			&.web-responsive {
 				background-image: url(../assets/icon-responsive.png);
@@ -110,8 +110,27 @@ ul.services {
 			&.web-development {
 				background-image: url(../assets/icon-gears.png);
 			}
+			&.web-maintenance {
+				background-image: url(../assets/icon-pencil.png);
+			}
+			&.it-network {
+				background-image: url(../assets/icon-network.png);
+			}
+			&.it-email {
+				background-image: url(../assets/icon-email.png);
+			}
+			&.it-desktop {
+				background-image: url(../assets/icon-mouse.png);
+			}
+			&.it-sharepoint {
+				background-image: url(../assets/icon-sharepoint.png);
+			}
 		}
 	}
+}
+
+footer {
+	padding-top: 60px;
 }
 
 @media screen and (min-width: 1024px) {
