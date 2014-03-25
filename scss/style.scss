@@ -44,9 +44,10 @@ a:hover, a:focus {
 }
 
 header.site-header {
-	min-height: 175px;
+	min-height: 120px;
 	padding-top: 50px;
 	background: #fff;
+	border-bottom: 1px solid #f9f9f9;
 	z-index: 99999;
 	width: 100%;
 	position: fixed;
@@ -295,8 +296,9 @@ ul.services {
 
 footer {
 	padding: 45px;
-	h2 {
+	h2.contact-header {
 		font-size: 1.2em;
+		margin-bottom: 1.4em;
 		font-weight: 400;
 	}
 	h3 {
