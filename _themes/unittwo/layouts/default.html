@@ -68,52 +68,32 @@
               </p>
             </div>
             <div class="large-6 columns">
-              {{ if {raven:success} }}
-              <h1>Thanks!</h1>
-            {{ else }}
+              {{ if {raven:has_errors} }}
+                    <h3>Error</h3>
+                    <ul class="errors">
+                     {{ raven:errors }}
+                        {{ missing }}
+                          <li>You're missing: {{ field }}</li>
+                        {{ /missing }}
 
-              <h1>{{ title }}</h1>
-              {{ content }}
+                        {{ invalid }}
+                          <li>Invalid {{ field }}: {{ message }}</li>
+                        {{ /invalid }}
 
-              {{ raven:errors }}
-
-                {{ if missing }}
-                <div class="error-block">
-                  <h2>Missing fields:</h2>
-                  <ul>
-                    {{ missing }}
-                      <li><strong>{{ field }}</strong></li>
-                    {{ /missing }}
-                  </ul>
-                </div>
+                      {{ /raven:errors }}
+                    </ul>
                 {{ endif }}
 
-                {{ if invalid }}
-                <div class="error-block">
-                  <h2>Invalid fields:</h2>
-                  <ul>
-                    {{ invalid }}
-                      <li><strong>{{ field }}</strong>: {{ message }}</li>
-                    {{ /invalid }}
-                  </ul>
-                </div>
+                {{ if {raven:success} }}
+                    <h3>Your message has been sent!</h3>
                 {{ endif }}
 
-              {{ /raven:errors }}
-
-              {{ raven:form formset="contact" attr="class:contact" return="#contact" error="#contact"}}
-
-                <label for="name">Your humble name</label>
-                <input type="text" name="name" value="{{value:name}}" /><br>
-
-                <label for="email">Your electronic mail address</label>
-                <input type="email" name="email" value="{{value:email}}" /><br>
-                <textarea name="message" value="{{value:message}}"></textarea>
-                <input type="submit" value="Submit" />
-
-              {{ /raven:form }}
-
-            {{ endif }}
+                {{ raven:form formset="contact" return="contact" }}
+                  <label>Name</label><input type="text" name="name" value="{{ value:name }}" />
+                  <label>Email</label><input type="email" name="email" value="{{ value:email }}" />
+                  <label>Message</label><textarea name="message">{{ value:message }}</textarea>
+                  <input type="submit" value="Send It!" />
+                {{ /raven:form }}
             </div>
           </div>
         </footer>

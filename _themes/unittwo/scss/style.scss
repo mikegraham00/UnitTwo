@@ -129,6 +129,12 @@ h1.logo {
 	}
 }
 
+ul.errors {
+	li {
+		color: $red;
+	}
+}
+
 @media screen and (max-width: 1024px) and (min-width: 641px) {
 	.main-nav a {
 		font-size: .8em;

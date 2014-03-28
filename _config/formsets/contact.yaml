@@ -41,13 +41,13 @@ validate:
 #
 messages:
   name: "Must be made of letters. Who named you?"
-  email: "That's not a website. Are you from the past?"
+  email: "That's not an email address. Are you from the past?"
 
 # Configure notification email
 email:
   to: "mike@backbeatweb.com"
   from: "{{ from }}"
-  subject: "The raven has flown"
+  subject: "UnitTwo.net Contact Form : {{ name }}"
   automagic: true
   # html_template: html_email
   # text_template: text_email
