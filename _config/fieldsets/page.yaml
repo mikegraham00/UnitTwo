@@ -1,0 +1,13 @@
+title: Standard Page
+
+fields:
+  _template:
+    display: Template
+    type: templates
+
+  content:
+    display: Page Content
+    required: false
+    default:
+    type: redactor
+

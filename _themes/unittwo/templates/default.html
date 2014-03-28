@@ -1,0 +1,22 @@
+
+ <div class="section-title">
+  <h2 id="web-projects">Featured Projects</h2>
+</div>
+        {{ entries:listing folder="our-work" limit="5" }}
+        <div class="row featured-project">
+          <div class="flex large-4 medium-4 small-12 columns">
+            <div class="folio-desc">
+              <div class="desc-content">
+              <h2>{{ title }}</h2>
+              <p>{{ project_description }}</p>
+              <p><a href="{{ url }}">Learn More About This Project</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="folio-screenshot large-8 medium-8 small-12 columns">
+            {{ project_screenshots }}
+              <img src="{{ img_url }}" alt="{{ title }}" />
+            {{ /project_screenshots }}
+          </div>
+        </div>
+        {{ /entries:listing }}

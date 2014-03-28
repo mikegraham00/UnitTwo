@@ -1,0 +1,36 @@
+fields:
+
+  short_description:
+    display: Short Description
+    type: redactor
+
+  project_description:
+    display: Project Description
+    type: redactor
+
+  featured:
+    display: Featured on Homepage?
+    type: checkbox
+
+  content:
+    type: hidden
+
+  main_image:
+  	display: Main Project Image
+  	type: file
+  	allowed: [jpg, png]
+  	destination: /img/portfolio-images/
+
+  project_screenshots:
+    display: Project Screenshots
+    type: grid
+    starting_rows: 1
+    min_rows: 2
+    fields:
+      screenshot:
+        display: Screenshot Images
+        type: file
+        allowed: [jpg, jpeg, png]
+        destination: /img/portfolio-images
+
+hide: true

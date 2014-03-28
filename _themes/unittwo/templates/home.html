@@ -1,0 +1,76 @@
+<div class="row top-text">
+  <div class="small-10 columns small-centered">
+      {{ intro_text }}
+  </div>
+</div>
+
+ <div class="section-title">
+  <h2 id="web-projects">Featured Projects</h2>
+</div>
+        {{ entries:listing folder="our-work" conditions="featured:true" limit="5" }}
+        <div class="row featured-project {{ switch between="odd|even" }}">
+          <div class="flex folio-desc-wrap large-4 medium-4 small-12 columns">
+            <div class="folio-desc">
+              <div class="desc-content">
+              <h2>{{ title }}</h2>
+              <p>{{ short_description }}</p>
+              <p><a href="{{ url }}">Learn More About This Project</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="folio-screenshot large-8 medium-8 small-12 columns">
+            {{ project_screenshots limit="1" }}
+              <img src="{{ screenshot }}" alt="{{ title }}" />
+            {{ /project_screenshots }}
+          </div>
+        </div>
+        {{ /entries:listing }}
+
+        <div class="row services-header">
+            <div class="small-12 columns">
+                <div class="section-title">
+                   
+                    <h2 id="web-services">Backbeat Web Services</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row services-wrap">
+            <div class="small-12 columns">
+                <ul class="large-block-grid-3 medium-block-grid-2 services">
+
+                  {{ web_services }}
+                    <li class="service-block">
+                      <h3 style="background-image: url({{ project_image }});">{{ project_title }}</h3>
+                      {{ project_description }}
+                    </li>
+                  {{ /web_services }}
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="row services-header">
+          <div class="small-12 columns">
+            <div class="section-title">
+                    
+                    <h2 id="it-services">Robo6K Services</h2>
+                </div>
+          </div>
+        </div>
+
+        <div class="row services-wrap">
+            <div class="small-12 columns">
+                <ul class="large-block-grid-3 medium-block-grid-2 services">
+
+                  {{ it_services }}
+                    <li class="service-block">
+                      <h3 class="it-network">{{ project_title }}</h3>
+                      {{ project_description}}
+                    </li>
+                  {{ /it_services }}
+
+                </ul>
+            </div>
+        
+        </div>

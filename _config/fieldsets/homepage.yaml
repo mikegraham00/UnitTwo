@@ -1,0 +1,57 @@
+title: Home Page
+
+fields:
+
+  intro_text:
+    display: Intro Text
+    required: false
+    type: redactor
+
+  web_services:
+    display: Web Services
+    type: grid
+    starting_rows: 3
+    min_rows: 3
+    max_rows: 6
+    fields:
+      project_title:
+        display: Service Title
+        type: text
+        width: 25%
+      project_description:
+        display: Service Description
+        type: redactor
+        width: 50%
+      project_image:
+        display: Service Icon
+        type: file
+        allowed: [jpg, jpeg, png]
+        destination: /assets/
+
+  it_services:
+    display: IT Services
+    type: grid
+    starting_rows: 3
+    min_rows: 3
+    max_rows: 6
+    fields:
+      project_title:
+        display: Service Title
+        type: text
+        width: 25%
+      project_description:
+        display: Service Description
+        type: redactor
+        width: 50%
+      project_image:
+        display: Service Icon
+        type: file
+        allowed: [jpg, jpeg, png]
+        destination: /assets/
+
+  content:
+    display: Page Content
+    required: false
+    default:
+    type: hidden
+
