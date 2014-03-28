@@ -63,7 +63,8 @@
           "instructions" => array(
             "above" => null,
             "below" => null
-          )
+          ),
+          "display" => Localization::fetch('title')
         );
 
         if (isset($fields) && is_array($fields) && isset($fields['title'])) {
@@ -79,11 +80,25 @@
               }
             }
           }
+            
+          if (isset($fields['title']['display'])) {
+            $title_details['display'] = $fields['title']['display'];
+          }
         }
         ?>
 
         <div class="input-block input-text required">
-          <label for="publish-title"><?php echo Localization::fetch('title') ?></label>
+            <?php
+            if ($title_details['display']) {
+                ?>
+                <label for="publish-title"><?php echo $title_details['display']; ?></label>
+                <?php
+            } else {
+                ?>
+                <label for="publish-title" style="position: absolute; left: -999em; width: 1em; overflow: hidden;"><?php echo Localization::fetch('title') ?></label>
+                <?php
+            }
+            ?>
           <?php
           if ($title_details['instructions']['above']) {
             echo "<small>{$title_details['instructions']['above']}</small>";

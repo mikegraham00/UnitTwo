@@ -1,20 +1,14 @@
 
-        <div class="page-title"><h2>Westlake Plastic Surgery</h2></div>
+        <div class="page-title"><h2>{{ title }}</h2></div>
         <div class="row">
             <div class="small-12 columns">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                {{ project_description }}
             </div>
         </div>
 
         <div class="row">
             <div class="small-12 columns">
-                <img src="/img/portfolio-images/devices-westlake.png" />
+                <img src="{{ main_image }}" />
             </div>
         </div>
 
@@ -22,26 +16,39 @@
             <div class="small-12 columns">
                 <div class="monitor-wrap">
                     <ul class="folio-slides" data-orbit data-options="slide_number:false; animation:slide; timer_speed:4000; animation_speed:700;">
+                        {{ project_screenshots }}
                         <li>
-                            <img src="/img/portfolio-images/WestlakePlasticSurgery-home.jpg" />
+                            <img src="{{ screenshot }}" />
                         </li>
-                        <li>
-                            <img src="/img/portfolio-images/WestlakePlasticSurgery-photos.jpg" />
-                        </li>
-                        <li>
-                            <img src="/img/portfolio-images/WestlakePlasticSurgery-videos.jpg" />
-                        </li>
+                        {{ /project_screenshots }}
+                        
                     </ul>
                     <div class="slider-overlay"><img src="/assets/monitor-blank.png" /></div>
                 </div>
             </div>
 
-            {{ entries:pagination }}
-                {{ if previous_page }}
-                    <a href="{{ previous_page }}">Previous Item</a>
-                {{ endif }}
-                {{ if next_page }}
-                    <a href="{{ next_page }}">Next Item</a>
-                {{ endif }}
-            {{ /entries:pagination }}
+        </div>
+        <div class="folio-nav-wrap">
+        <div class="row folio-nav">
+
+            {{ entries:previous folder="our-work" }}
+
+                <div class="prev small-6 columns align-right">
+                    {{ if !no_results }}
+                        <a href="{{ url }}"><h3>Previous Project</h3></a>
+                    {{ endif }}
+                </div>
+
+            {{ /entries:previous }}
+
+            {{ entries:next folder="our-work" }}
+
+                 <div class="next small-6 columns align-left">
+                    {{ if !no_results }}
+                        <a href="{{ url }}"><h3>Next Project</h3></a>
+                    {{ endif }}
+                </div>
+
+            {{ /entries:next }}
+        </div>
         </div>

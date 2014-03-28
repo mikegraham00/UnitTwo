@@ -222,9 +222,13 @@ class Path
      */
     public static function toAsset($path)
     {
-        $asset_path = self::trimFilesystem($path);
+        $asset_path = Path::trimFilesystem($path);
 
-        return self::tidy(Config::getSiteRoot().$asset_path);
+        if (!Pattern::startsWith($asset_path, Config::getSiteRoot())) {
+            $asset_path = Config::getSiteRoot() . '/' . $asset_path;
+        }
+
+        return rtrim(self::tidy($asset_path), '/');
     }
 
 

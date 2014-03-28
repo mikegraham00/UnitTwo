@@ -30,8 +30,8 @@ class Parse
     /**
      * Parse and transform Markdown strings into HTML
      *
-     * @param string  $text  text to transform
-     * @return array
+     * @param string  $string  text to transform
+     * @return string
      */
     public static function markdown($string)
     {
@@ -47,11 +47,11 @@ class Parse
         return $parser->transform($string);
     }
 
-        /**
+    /**
      * Parse and transform Textile strings into HTML
      *
-     * @param string  $text  text to transform
-     * @return array
+     * @param string  $string  text to transform
+     * @return string
      */
     public static function textile($string)
     {
@@ -62,7 +62,7 @@ class Parse
     /**
      * Translate plain ASCII punctuation characters into "smart" typographic punctuation HTML entities.
      *
-     * @param string  $text  text to transform
+     * @param string  $string  text to transform
      * @return array
      */
     public static function smartypants($string)
@@ -92,7 +92,7 @@ class Parse
         $parser->cumulativeNoparse(TRUE);
         $allow_php = Config::get('_allow_php', false);
 
-        return $parser->parse($html, ($context + $variables), $callback, $allow_php);
+        return $parser->parse($html, ($variables + $context), $callback, $allow_php);
     }
 
 
@@ -116,33 +116,34 @@ class Parse
      *
      * @param string  $content  Template for replacing
      * @param array  $data  Array of arrays containing values
+     * @param bool  $supplement  Supplement each loop with contextual information?
+     * @param array  $context  Contextual data to add into loop
      * @return string
      */
-    public static function tagLoop($content, $data, $supplement = false)
+    public static function tagLoop($content, $data, $supplement = false, $context=array())
     {
         $output = '';
 
         if ($supplement) {
-
             // loop through each record of $data
             $i = 1;
             $count = count($data);
-
+            
             foreach ($data as $item) {
                 $item['first']         = ($i === 1);
                 $item['last']          = ($i === $count);
                 $item['index']         = $i;
                 $item['zero_index']    = $i - 1;
                 $item['total_results'] = $count;
-
-                $output .= Parse::template($content, $item);
+                
+                $output .= Parse::contextualTemplate($content, $item, $context);
 
                 $i++;
             }
 
         } else {
             foreach ($data as $item) {
-                $output .= Parse::template($content, $item);
+                $output .= Parse::contextualTemplate($content, $item, $context, array('statamic_view', 'callback'));
             }
         }
 
@@ -179,7 +180,7 @@ class Parse
     public static function condition($condition)
     {
         // has a colon, is a comparison
-        if (strstr($condition, ":") !== FALSE) {
+        if (strstr($condition, ":") !== false) {
             // breaks this into key => value
             $parts  = explode(":", $condition, 2);
 
@@ -245,6 +246,18 @@ class Parse
                     "type" => "not equal",
                     "value" => substr($value, 4)
                 );
+            } elseif (substr($value, 0, 1) == "!") {
+                $item = array(
+                    "kind" => "comparison",
+                    "type" => "not equal",
+                    "value" => substr($value, 1)
+                );
+            } elseif (substr($value, 0, 2) == "! ") {
+                $item = array(
+                    "kind" => "comparison",
+                    "type" => "not equal",
+                    "value" => substr($value, 2)
+                );
             } elseif (substr($value, 0, 2) == "<=") {
                 // less than or equal to
                 $item = array(
@@ -301,7 +314,28 @@ class Parse
                     "type" => "less than",
                     "value" => substr($value, 2)
                 );
-            } else {
+            } elseif (substr($value, 0, 1) == '~') {
+                // contains
+                $item = array(
+                    'kind' => 'comparison',
+                    'type' => 'contains text',
+                    'value' => substr($value, 1)
+                );
+            } elseif (substr($value, 0, 2) == '~ ') {
+                // contains
+                $item = array(
+                    'kind' => 'comparison',
+                    'type' => 'contains text',
+                    'value' => substr($value, 2)
+                );
+            } elseif (substr($value, 0, 9) == 'contains ') {
+                // contains
+                $item = array(
+                    'kind' => 'comparison',
+                    'type' => 'contains text',
+                    'value' => substr($value, 9)
+                );
+            } else{
                 $item = array(
                     "kind" => "comparison",
                     "type" => "equal",

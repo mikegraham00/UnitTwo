@@ -13,8 +13,10 @@ class ContentSet
 {
     private $content = array();
     private $prepared = false;
+    private $content_parsed = false;
     private $supplemented = false;
     private $folder_data = array();
+    static private $known_content = array();
 
 
     /**
@@ -151,6 +153,28 @@ class ContentSet
         if ($filters['located']) {
             $located = true;
         }
+        
+        
+        // before we run filters, we need to look through conditions if they
+        // were set to see if we're going to need content or content_raw
+        // -----------
+        
+        if ($conditions) {
+            // check for conditions involving content
+            $uses_content = false;
+            foreach ($conditions as $field => $instructions) {
+                if (strtolower($field) === 'content') {
+                    $uses_content = true;
+                    break;
+                }
+            }
+
+            // this uses content, which means we need to load it for all content
+            if ($uses_content) {
+                $this->prepare(true, false);
+                $this->content_parsed = false;
+            }
+        }
 
 
         // run filters
@@ -237,7 +261,7 @@ class ContentSet
                                 throw new Exception("Unknown existence type");
                             }
 
-                            // are we looking for a comparison?
+                        // are we looking for a comparison?
                         } elseif ($instructions['kind'] === "comparison") {
                             $is_taxonomy     = Taxonomy::isTaxonomy($field);
                             $case_sensitive  = ($is_taxonomy && $case_sensitive_taxonomies);
@@ -331,7 +355,7 @@ class ContentSet
                                     throw new Exception("Does not fit condition");
                                 }
 
-                                // not-equal comparisons
+                            // not-equal comparisons
                             } elseif ($instructions['type'] == "not equal") {
                                 // if this isn't set, it's not equal, continue
                                 if (!$field) {
@@ -346,45 +370,56 @@ class ContentSet
                                     throw new Exception("Does not fit condition");
                                 }
 
-                                // contains comparisons
+                            // contains array comparisons
                             } elseif ($instructions['type'] == "in") {
-                                if (!isset($field)) {
+                                if (!$field || !count(array_intersect(Helper::ensureArray($field), $values))) {
                                     throw new Exception("Does not fit condition");
                                 }
-
-                                if (is_array($field)) {
-                                    $found = false;
-
-                                    foreach ($field as $option) {
-                                        if (in_array($option, $values)) {
+                                
+                            // doesn't contain array comparisons
+                            } elseif ($instructions['type'] == "not in") {
+                                if (!$field || count(array_intersect(Helper::ensureArray($field), $values))) {
+                                    throw new Exception("Does not fit condition");
+                                }           
+                                
+                            // contains contains-text comparisons
+                            } elseif ($instructions['type'] == 'contains text') {
+                                if (!$field) {
+                                    throw new Exception('Does not fit condition');
+                                }
+                                
+                                $field = Helper::ensureArray($field);
+                                $found = false;
+                                
+                                foreach ($field as $option) {
+                                    // do we need to loop through values?
+                                    if (is_array($values)) {
+                                        // we do
+                                        foreach ($values as $value) {
+                                            if (strpos($option, strtolower($value)) !== false) {
+                                                $found = true;
+                                                break;
+                                            }
+                                        }
+                                        
+                                        if ($found) {
+                                            break;
+                                        }
+                                    } else {
+                                        // we don't
+                                        if (strpos($option, strtolower($values)) !== false) {
                                             $found = true;
                                             break;
                                         }
                                     }
-
-                                    if (!$found) {
-                                        throw new Exception("Does not fit condition");
-                                    }
-                                } elseif (!in_array($field, $values)) {
-                                    throw new Exception("Does not fit condition");
-                                }
-                            } elseif ($instructions['type'] == "not in") {
-                                if (!isset($field)) {
-                                    throw new Exception("Does not fit condition");
                                 }
 
-                                if (is_array($field)) {
-                                    foreach ($field as $option) {
-                                        if (in_array($option, $values)) {
-                                            throw new Exception("Does not fit condition");
-                                        }
-                                    }
-                                } elseif (in_array($field, $values)) {
+                                if (!$found) {
                                     throw new Exception("Does not fit condition");
                                 }
                             }
 
-                            // we don't know what this is
+                        // we don't know what this is
                         } else {
                             throw new Exception("Unknown kind of condition");
                         }
@@ -558,16 +593,34 @@ class ContentSet
             $this->content[$key]['count']         = $i;
             $this->content[$key]['total_results'] = $count;
 
-            // parse full content if that's been requested
-            if ($parse_content && isset($item['_file'])) {
-                $raw_file = substr(File::get($item['_file']), 3);
-                $divide = strpos($raw_file, "\n---");
-                
-                $this->content[$key]['content_raw']  = trim(substr($raw_file, $divide + 4));
-                $this->content[$key]['content']      = Content::parse($this->content[$key]['content_raw'], $item);
+            // parse full content if that's been requested and is needed
+            if ($parse_content && isset($item['_file']) && (!$this->content_parsed || $override_flag)) {
+                if (isset(self::$known_content[$item['url']])) {
+                    // we've already parsed this once, let's use what we know
+                    $this->content[$key]['content_raw'] = self::$known_content[$item['url']]['content_raw'];
+                    $this->content[$key]['content']     = self::$known_content[$item['url']]['content'];
+                } else {
+                    // first time parsing, let's figure stuff out
+                    $raw_file = substr(File::get($item['_file']), 3);
+                    $divide = strpos($raw_file, "\n---");
+
+                    $this->content[$key]['content_raw']  = trim(substr($raw_file, $divide + 4));
+                    $this->content[$key]['content']      = Content::parse($this->content[$key]['content_raw'], $item);
+                    
+                    // but let's also save this for later
+                    self::$known_content[$item['url']] = array(
+                        'content_raw' => $this->content[$key]['content_raw'],
+                        'content' => $this->content[$key]['content']
+                    );
+                }
             }
 
             $i++;
+        }
+
+        // mark that we've parsed content so that we don't do it again
+        if ($parse_content) {
+            $this->content_parsed = true;
         }
     }
 

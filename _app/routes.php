@@ -4,7 +4,7 @@
 // ROUTING HOOKS
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-$app->map('/TRIGGER/:namespace/:hook', function ($namespace, $hook) use ($app) {
+$app->map('/TRIGGER/:namespace/:hook(/:segments+)', function ($namespace, $hook, $segments = array()) use ($app) {
 
     /*
     |--------------------------------------------------------------------------
@@ -16,8 +16,8 @@ $app->map('/TRIGGER/:namespace/:hook', function ($namespace, $hook) use ($app) {
     |
     */
     Hook::run('_routes', 'before');
-    
-    Hook::run($namespace, $hook);
+
+    Hook::run($namespace, $hook, null, null, $segments);
 
 })->via('GET', 'POST', 'HEAD');
 
@@ -33,7 +33,7 @@ if (Config::get('enable_static_pipeline', true)) {
 
         // clean segments
         $segments = URL::sanitize($segments);
-        
+
         /*
         |--------------------------------------------------------------------------
         | Hook: Routes Before
@@ -44,9 +44,11 @@ if (Config::get('enable_static_pipeline', true)) {
         |
         */
         Hook::run('_routes', 'before');
-        
+
         $file_requested = implode($segments, '/');
         $file = Theme::getPath() . $file_requested;
+
+        $file = realpath($file);
 
         # Routes only if the file doesn't already exist (e.g. /assets/whatever.ext)
         if ( ! File::exists(array($file_requested, $file))) {
@@ -54,7 +56,7 @@ if (Config::get('enable_static_pipeline', true)) {
             Log::warn("The Static Asset Pipeline is deprecated. It may yet come back to fight another battle someday.", "core", "asset pipeline");
 
             $mime = File::resolveMime($file);
-            
+
             header("Content-type: {$mime}");
             readfile($file);
 
@@ -79,26 +81,22 @@ $app->get('/_add-ons/(:segments+)', function($segments = array()) use ($app) {
 
     // clean segments
     $segments = URL::sanitize($segments);
-
-    /*
-    |--------------------------------------------------------------------------
-    | Hook: Routes Before
-    |--------------------------------------------------------------------------
-    |
-    | Useful for running your own route. Remember to use $app->pass() if
-    | you're not doing anything with the current request.
-    |
-    */
-    Hook::run('_routes', 'before');
-
     $file_requested = implode($segments, '/');
+    
     $bundle_folder  = APP_PATH . "/core/bundles/" . $segments[0];
     $file = APP_PATH . "/core/bundles/" . $file_requested;
+
+    $file = realpath($file);
     
+    if (strpos($file_requested, '../') !== false || File::getExtension($file) === 'php') {
+        $app->pass();
+        return;
+    }
+
     if (Folder::exists($bundle_folder)) {
         if (File::exists($file)) {
             $mime = File::resolveMime($file);
-            
+
             header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
 
             if (Config::get('http_cache_expires', false)) {
@@ -108,10 +106,10 @@ $app->get('/_add-ons/(:segments+)', function($segments = array()) use ($app) {
             header("Content-type: {$mime}");
             readfile($file);
         }
-        
+
         exit();
     }
-    
+
 });
 
 
@@ -121,8 +119,21 @@ $app->get('/_add-ons/(:segments+)', function($segments = array()) use ($app) {
 
 $app->map('/(:segments+)', function ($segments = array()) use ($app) {
 
+    /*
+    |--------------------------------------------------------------------------
+    | Hook: Request Post
+    |--------------------------------------------------------------------------
+    |
+    | Do a thing with a POST request. Go ahead. Do it.
+    |
+    */
+    if ($app->request()->isPost()) {
+        Hook::run('request', 'post');
+    }
+
     // clean segments
     $segments = URL::sanitize($segments);
+
 
     /*
     |--------------------------------------------------------------------------
@@ -247,7 +258,7 @@ $app->map('/(:segments+)', function ($segments = array()) use ($app) {
 
         $route    = $current_route;
         $template = $route;
-        $data     = array();
+        $data     = $app->config;  // start with the current global vars
 
         if (is_array($route)) {
             $template = isset($route['template']) ? $route['template'] : 'default';
@@ -270,7 +281,7 @@ $app->map('/(:segments+)', function ($segments = array()) use ($app) {
         $data['current_url'] = $current_url;
         $data['slug']        = basename($current_url);
 
-        if ($path !== "404") {
+        if ($path !== "/404") {
             $content_found = true;
         }
 
@@ -305,11 +316,11 @@ $app->map('/(:segments+)', function ($segments = array()) use ($app) {
         $data['current_url'] = $current_url;
         $data['slug']        = basename($current_url);
 
-        if ($path !== "404") {
+        if ($path !== "/404") {
             $content_found = true;
         }
     }
-    
+
     // content was found
     if ($content_found) {
         // protect
@@ -325,7 +336,7 @@ $app->map('/(:segments+)', function ($segments = array()) use ($app) {
                 $response_code = 404;
             }
         }
-        
+
         // alter the response code if you want
         $response_code = array_get($data, '_response', $response_code);
     }
@@ -418,7 +429,7 @@ $app->map('/(:segments+)', function ($segments = array()) use ($app) {
 
     // grab data for this folder
     $folder_data = Content::get(Path::tidy('/' . Config::getSiteRoot() . '/' . dirname($current_url)));
-    
+
     $fields_data = YAML::parseFile(Path::tidy(BASE_PATH . "/" . Config::getContentRoot() . dirname($current_url) . '/fields.yaml'));
 
     // Check for fallback template

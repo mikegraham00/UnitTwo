@@ -268,14 +268,11 @@ $admin_app->get('/pages', function() use ($admin_app) {
 $admin_app->get('/entries', function() use ($admin_app) {
   authenticateForRole('admin');
   doStatamicVersionCheck($admin_app);
-  $content_root = Config::getContentRoot();
   $template_list = array("entries");
 
-  $path = "";
   $path = $admin_app->request()->get('path');
   $errors = array();
-
-  $path = $admin_app->request()->get('path');
+    
   if ($path) {
     $entry_type = Statamic::get_entry_type($path);
 
@@ -833,7 +830,8 @@ $admin_app->post('/publish', function() use ($admin_app) {
       }
     }
       
-    // ensure that $new_file starts with a /
+    // ensure that both variables are coming from the same place
+    $file = Path::addStartingSlash($file);
     $new_file = Path::addStartingSlash($new_file);
 
     if ($file !== $new_file) {
@@ -1130,19 +1128,15 @@ $admin_app->get('/publish', function() use ($admin_app) {
   unset($data['fields']['status']);
 
   // Content
-  $content_defaults = array('content' => array(
-    'display'      => array_get($data, 'fields:content:display', 'Content'),
-    'type'         => array_get($data, 'fields:content:type', 'markitup'),
-    'field_config' => array_get($data, 'fields:content', array()),
-    'required'     => (array_get($data, 'fields:content:required', false) === true) ? 'required' : '',
-    'instructions' => array_get($data, 'fields:content:instructions', ''),
-    'required'     => array_get($data, 'fields:content:required', false),
-    'input_key'    => ''
-  ));
+  $content_defaults = array_get($data, 'fields:content', array());
+  $content_defaults['display']      = array_get($data, 'fields:content:display', 'Content');
+  $content_defaults['type']         = array_get($data, 'fields:content:type', 'markitup');
+  $content_defaults['required']     = (array_get($data, 'fields:content:required', false) === true) ? 'required' : '';
+  $content_defaults['instructions'] = array_get($data, 'fields:content:instructions', '');
+  $content_defaults['required']     = array_get($data, 'fields:content:required', false);
+  $content_defaults['input_key']    = '';
 
-
-
-  $data['fields'] = array_merge(array_get($data, 'fields', array()), $content_defaults);
+  array_set($data, 'fields:content', $content_defaults);
 
   $data['full_slug'] = Path::tidy($data['full_slug']);
 
@@ -1257,7 +1251,7 @@ $admin_app->post('/member', function() use ($admin_app) {
   $member = null;
   if (empty($errors)) {
       if ($is_new) {
-          $member = new Member($submission);
+          $member = new Member(array());
           $member->set('username', $username);
       } else {
           try {
@@ -1284,15 +1278,18 @@ $admin_app->post('/member', function() use ($admin_app) {
     
   // set variables
   foreach ($submission as $key => $value) {
-      if ($key == 'password_confirmation') {
-          continue;
-      }
-      
       if ($key == 'password' && $value == '') {
           continue;
       }
       
-      $member->set($key, $value);
+      $field_config = array_get($config, $key, array());
+      
+      // only save values if save_value isn't false
+      if (array_get($field_config, 'save_value', true)) {
+          $member->set($key, $value);
+      } else {
+          $member->remove($key);
+      }
   }
     
   // save member
@@ -1333,9 +1330,15 @@ $admin_app->get('/member', function() use ($admin_app) {
     $data['status_message'] = Localization::fetch('editing_member');
   }
 
-  $data['fields'] = YAML::parse(URL::assemble(Config::getConfigPath(), 'bundles', 'member', 'fields.yaml'));
+  $data['fields'] = YAML::parse(Config::getConfigPath().'/bundles/member/fields.yaml');
   $data['original_name'] = $original_name;
   $data['full_name'] = array_get($data, 'first_name', $name) . ' ' . array_get($data, 'last_name', '');
+
+  // overwrite 'biography' as it needs to be 'biography_raw' here
+  if (isset($data['fields']['fields']['biography'])) {
+      $data['fields']['fields']['biography_raw'] = $data['fields']['fields']['biography'];
+      unset($data['fields']['fields']['biography']);
+  }
 
   $template_list = array("member");
     
@@ -1421,7 +1424,7 @@ $admin_app->get('/system/security', function() use ($admin_app) {
       '_config/settings.yaml'                           => Localization::fetch('security_settings_files'),
       '_config/users/'.$username.'.yaml'                => Localization::fetch('security_user_files'),
       Config::getContentRoot()                          => Localization::fetch('security_content_folder'),
-      Config::getTemplatesPath().'layouts/default.html' => Localization::fetch('security_template_files'),
+      Config::getTemplatesPath().'layouts/default.php'  => Localization::fetch('security_template_files'),
       '_logs'                                           => Localization::fetch('security_logs_folder')
     );
 

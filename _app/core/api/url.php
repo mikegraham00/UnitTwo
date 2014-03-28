@@ -54,6 +54,18 @@ class URL
 
 
     /**
+     * Creates a full URL from a local one, assumes you've accounted for the site's root in a subfolder
+     * 
+     * @param string  $url  URL to make full
+     * @return string
+     */
+    public static function makeFull($url)
+    {
+        return self::tidy(Config::getSiteURL() . '/' . $url);
+    }
+
+
+    /**
      * Redirect visitor to a specified URL
      *
      * @param string  $url  URL to redirect to

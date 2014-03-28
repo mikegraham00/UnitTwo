@@ -70,13 +70,13 @@
           <div class="page-extras">
 
             <?php if ($page['type'] == 'file'): ?>
-              <div class="page-view"><a href="<?php print $page['url'] ?>" class="tip" title="View Page"><span class="ss-icon">link</span></a></div>
+              <div class="page-view"><a href="<?php print Path::tidy(Config::getSiteRoot() . '/' . $page['url']) ?>" class="tip" title="View Page"><span class="ss-icon">link</span></a></div>
             <?php elseif ($page['type'] == 'home'): ?>
               <div class="page-view"><a href="<?php print Config::getSiteRoot(); ?>" class="tip" title="View Page"><span class="ss-icon">link</span></a></div>
             <?php else:
               $folder = dirname($page['file_path']);
             ?>
-              <div class="page-view"><a href="<?php print $page['url'] ?>" class="tip" title="View Page"><span class="ss-icon">link</span></a></div>
+              <div class="page-view"><a href="<?php print Path::tidy(Config::getSiteRoot() . '/' . $page['url']) ?>" class="tip" title="View Page"><span class="ss-icon">link</span></a></div>
 
               <?php if (Config::get('_enable_add_child_page', true)): ?>
               <div class="page-add">
@@ -143,7 +143,7 @@
       <div class="page-extras">
 
         <div class="page-view">
-          <a href="<?php print $page['url']?>" class="tip" title="View Page">
+          <a href="<?php print Path::tidy(Config::getSiteRoot() . '/' . $page['url'])?>" class="tip" title="View Page">
             <span class="ss-icon">link</span>
           </a>
         </div>

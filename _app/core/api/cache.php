@@ -345,12 +345,6 @@ class Cache
                 foreach ($pages as $file => $item) {
                     // set up base variables
                     $parent = null;
-                    $has_children = false;
-                    $children = array(
-                        'live' => array(),
-                        'draft' => array(),
-                        'hidden' => array()
-                    );
                     
                     $order_key = ltrim($item['path'], $home);
                     $sub_order_key = $item['data']['_order_key'];
@@ -383,8 +377,6 @@ class Cache
                     
                     $structure[$item['url']] = array(
                         'parent' => $parent,
-                        'has_children' => $has_children,
-                        'children' => $children,
                         'is_entry' => $item['data']['_is_entry'],
                         'is_page' => $item['data']['_is_page'],
                         'is_hidden' => $item['data']['_is_hidden'],

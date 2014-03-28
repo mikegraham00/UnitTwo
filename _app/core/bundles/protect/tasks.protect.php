@@ -192,6 +192,8 @@ class Tasks_protect extends Tasks
      */
     public function evaluateRule($rule, $value)
     {
+        $member = (Auth::isLoggedIn()) ? Auth::getCurrentMember() : new Member(array());
+        
         if ($rule === '_any') {
             // this is an "any" grouping
             foreach ($value as $sub_rule) {
@@ -230,9 +232,9 @@ class Tasks_protect extends Tasks
             // grab add-on definition
             $method      = array_get($value, 'method', null);
             $comparison  = array_get($value, 'comparison', '==');
-            $value       = array_get($value, 'value', null);
             $parameters  = array_get($value, 'parameters', array());
             $error       = array_get($value, 'error', null);
+            $value       = array_get($value, 'value', null);
 
             // split method
             $method_parts = explode(':', $method, 2);
@@ -280,7 +282,7 @@ class Tasks_protect extends Tasks
                 return false;
             }
 
-            return $this->compareValues($value, Auth::getCurrentMember()->get($field, null), $comparison);
+            return $this->compareValues($value, $member->get($field, null), $comparison);
         } elseif ($rule === '_logged_in') {
             // this is checking if member is logged in
             return (Auth::isLoggedIn() === $value);
@@ -289,7 +291,7 @@ class Tasks_protect extends Tasks
             return $this->compareValues(Helper::ensureArray($value), Request::getIP(), '==');
         } else {
             // this is a simple field match
-            return $this->compareValues($value, Auth::getCurrentMember()->get($rule, null), '==');
+            return $this->compareValues($value, $member->get($rule, null), '==');
         }
     }
 

@@ -217,7 +217,7 @@ class Statamic
         if ($admin) {
             $admin_theme = array_get($config, '_admin_theme', 'ascent');
 
-            if (!Folder::exists(Path::tidy('/' . $config['_admin_path'] . '/' . 'themes/' . $admin_theme))) {
+            if (!Folder::exists(BASE_PATH . Path::tidy('/' . $config['_admin_path'] . '/' . 'themes/' . $admin_theme))) {                
                 $admin_theme = 'ascent';
             }
 
@@ -608,7 +608,9 @@ class Statamic
         } elseif ($sort_by == 'random') {
             shuffle($list);
         } elseif ($sort_by == 'numeric' || $sort_by == 'number') {
-            ksort($list);
+            uasort($list, function($a, $b) {
+                return Helper::compareValues($a['numeric'], $b['numeric']);
+            });
         } elseif ($sort_by == 'distance' && !is_null($location) && !is_null($distance_from) && preg_match(Pattern::COORDINATES, trim($distance_from))) {
             uasort($list, "statamic_sort_by_distance");
         } elseif ($sort_by != 'date') {

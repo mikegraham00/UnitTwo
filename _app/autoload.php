@@ -1,6 +1,6 @@
 <?php
 
-const STATAMIC_VERSION = '1.7.1';
+const STATAMIC_VERSION = '1.7.5';
 const APP_PATH = __DIR__;
 
 /*
