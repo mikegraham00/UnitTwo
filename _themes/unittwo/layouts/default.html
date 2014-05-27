@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="/{{ theme_path }}css/foundation.min.css">
         <link rel="stylesheet" href="/{{ theme_path }}css/style.css">
         <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-        
+
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <script src="/{{ theme_path }}js/modernizr-2.0.6.min.js"></script>
@@ -36,92 +36,18 @@
               <div class="main-nav" >
                         <a href="/" class="scroll">Home</a>
                         <a href="/#web-services" class="scroll">Web Services</a>
-                        <a href="/#it-services" class="scroll">IT Services</a>
+                        <!--<a href="/#it-services" class="scroll">IT Services</a>-->
                         <a href="#contact" class="scroll">Contact</a>
               </div>
             </div>
           </div>
-          
+
         </header>
-        
+
         {{ layout_content }}
-      <footer>
-          <div class="row">
-            <div class="large-12 columns">
-                    
-              <h2 id="contact" class="contact-header">We'd Love to hear from you</h2>
-                </div>
-                <div class="large-3 columns">
-                        <h3>Backbeat Web</h3>
-                        <p>Mike Graham <br/>
-                (512) 576-7606<br />
-                mike@backbeatweb.com
-                        </p>
-                </div>
-                <div class="large-3 columns">
-                        <h3>Robo6K</h3>
-                        <p>
-                Peter Hanna<br />
-                (512) 917-5731<br />
-                peter@robo6k.com
-                        </p>
-              </p>
-            </div>
-            <div class="large-6 columns">
-              {{ if {raven:has_errors} }}
-                    <h3>Error</h3>
-                    <ul class="errors">
-                     {{ raven:errors }}
-                        {{ missing }}
-                          <li>You're missing: {{ field }}</li>
-                        {{ /missing }}
 
-                        {{ invalid }}
-                          <li>Invalid {{ field }}: {{ message }}</li>
-                        {{ /invalid }}
+        {{ theme:partial src="footer" }}
 
-                      {{ /raven:errors }}
-                    </ul>
-                {{ endif }}
 
-                {{ if {raven:success} }}
-                    <h3>Your message has been sent!</h3>
-                {{ endif }}
-
-                {{ raven:form formset="contact" return="contact" }}
-                  <label>Name</label><input type="text" name="name" value="{{ value:name }}" />
-                  <label>Email</label><input type="email" name="email" value="{{ value:email }}" />
-                  <label>Message</label><textarea name="message">{{ value:message }}</textarea>
-                  <input type="submit" value="Send It!" />
-                {{ /raven:form }}
-            </div>
-          </div>
-        </footer>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-        <script src="/{{ theme_path }}js/foundation.min.js" ></script>
-        <script src="/{{ theme_path }}js/jquery.smooth-scroll.min.js" ></script>
-        <script>
-        $(document).foundation();
-        $(document).ready(function(){
-            $('a.scroll').smoothScroll({
-                offset: -215,
-                easing: 'swing',
-                speed: 1000
-            });
-        });
-
-        </script>
     </body>
 </html>

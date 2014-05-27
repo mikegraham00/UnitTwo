@@ -63,6 +63,15 @@
       "initialSize" : 8218,
       "fileType" : 4096
     },
+    "\/_app\/core\/bundles\/location\/css\/leaflet.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/location\/css\/leaflet.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/_app\/vendor\/Stampie\/MessageInterface.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -71,15 +80,6 @@
       "inputAbbreviatedPath" : "\/_app\/vendor\/Stampie\/MessageInterface.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/_app\/core\/bundles\/redactor\/css\/override.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/css\/override.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/_app\/core\/bundles\/not_empty\/mod.not_empty.php" : {
       "ignoreWasSetByUser" : 0,
@@ -90,12 +90,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/bundles\/location\/css\/leaflet.css" : {
+    "\/_app\/core\/bundles\/redactor\/css\/override.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/location\/css\/leaflet.css",
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/css\/override.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -231,12 +231,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/VowelsException.php" : {
+    "\/_app\/core\/bundles\/taxonomy\/pi.taxonomy.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/VowelsException.php",
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/taxonomy\/pi.taxonomy.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -246,15 +246,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Yaml\/Exception\/RuntimeException.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_app\/core\/bundles\/taxonomy\/pi.taxonomy.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/taxonomy\/pi.taxonomy.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -321,14 +312,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/ConsonantsException.php" : {
+    "\/admin\/themes\/ascent\/js\/ascent-ck.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/ConsonantsException.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/ascent-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/ascent-ck-ck.js",
+      "fileType" : 64
     },
     "\/_app\/core\/bundles\/word_count\/mod.word_count.php" : {
       "ignoreWasSetByUser" : 0,
@@ -487,6 +480,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/admin\/themes\/ascent\/js\/vendor\/alertify.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/alertify.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/alertify.min-ck-ck.js",
+      "fileType" : 64
+    },
     "\/_app\/core\/bundles\/location\/ft.location.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -556,12 +560,12 @@
       "initialSize" : 206250,
       "fileType" : 8192
     },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/AttributeException.php" : {
+    "\/_app\/core\/api\/resource.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/AttributeException.php",
+      "inputAbbreviatedPath" : "\/_app\/core\/api\/resource.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -574,21 +578,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/api\/resource.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/api\/resource.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NumericException.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NumericException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/AttributeException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/AttributeException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -657,15 +661,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Whoops\/Run.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Whoops\/Run.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/core\/api\/math.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -681,6 +676,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/bundles\/date\/ft.date.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Whoops\/Run.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Whoops\/Run.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -845,6 +849,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CreditCardException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CreditCardException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/admin\/themes\/ascent\/img\/topo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -855,15 +868,6 @@
       "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/topo.png",
       "initialSize" : 4302,
       "fileType" : 8192
-    },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CreditCardException.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CreditCardException.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_app\/core\/bundles\/empty\/mod.empty.php" : {
       "ignoreWasSetByUser" : 0,
@@ -894,15 +898,6 @@
       "initialSize" : 8777,
       "fileType" : 8192
     },
-    "\/_themes\/unittwo\/templates\/map.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_themes\/unittwo\/templates\/map.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Symfony\/Component\/Yaml\/Inline.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -912,12 +907,30 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_themes\/unittwo\/templates\/map.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_themes\/unittwo\/templates\/map.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/vendor\/Respect\/Validation\/Exceptions\/BoolException.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/BoolException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/PrntException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/PrntException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -945,6 +958,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/bundles\/ampersand_list\/mod.ampersand_list.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Cnh.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Cnh.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -995,6 +1017,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/admin\/themes\/ascent\/js\/vendor\/jquery.easing.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery.easing.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery.easing.min-ck-ck.js",
+      "fileType" : 64
+    },
     "\/_app\/vendor\/Respect\/Validation\/Rules\/Instance.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1010,6 +1043,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/portfolio-item_template.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CnhException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CnhException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1051,12 +1093,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/DigitsException.php" : {
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/File.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/DigitsException.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/File.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1099,6 +1141,17 @@
       "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/markitup\/bold.png",
       "initialSize" : 148,
       "fileType" : 8192
+    },
+    "\/admin\/themes\/ascent\/js\/vendor\/chosen.jquery-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/chosen.jquery-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/chosen.jquery-ck-ck.js",
+      "fileType" : 64
     },
     "\/_app\/vendor\/Slim\/Http\/Request.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1154,6 +1207,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/admin\/themes\/ascent\/templates\/login.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/templates\/login.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/vendor\/Symfony\/Component\/Finder\/Shell\/Shell.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1169,15 +1231,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/bundles\/json\/mod.json.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/admin\/themes\/ascent\/templates\/login.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/templates\/login.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1241,6 +1294,17 @@
       "outputAbbreviatedPath" : "\/_themes\/unittwo\/js\/modernizr-2.0.6.min-ck.js",
       "fileType" : 64
     },
+    "\/admin\/themes\/ascent\/js\/vendor\/selectize.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/selectize.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/selectize.min-ck-ck.js",
+      "fileType" : 64
+    },
     "\/img\/portfolio-images\/WestlakePlasticSurgery-home-s-w307-h133-q75-m1395779307.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1258,6 +1322,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/bundles\/ordered_list\/mod.ordered_list.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Graph.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Graph.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1351,6 +1424,17 @@
       "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/webfonts\/ss-pika\/ss-pika-ck.js",
       "fileType" : 64
     },
+    "\/_app\/core\/bundles\/location\/js\/leaflet-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/location\/js\/leaflet-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_app\/core\/bundles\/location\/js\/leaflet-ck-ck.js",
+      "fileType" : 64
+    },
     "\/img\/portfolio-images\/WestlakePlasticSurgery-home.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1361,15 +1445,6 @@
       "outputAbbreviatedPath" : "\/img\/portfolio-images\/WestlakePlasticSurgery-home.jpg",
       "initialSize" : 82418,
       "fileType" : 4096
-    },
-    "\/_app\/vendor\/Symfony\/Component\/Finder\/Iterator\/FilePathsIterator.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Finder\/Iterator\/FilePathsIterator.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_app\/vendor\/Respect\/Validation\/Rules\/Max.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1391,6 +1466,15 @@
       "outputAbbreviatedPath" : "\/_themes\/unittwo\/js\/foundation\/foundation.dropdown-ck.js",
       "fileType" : 64
     },
+    "\/_app\/core\/api\/html.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/api\/html.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/core\/bundles\/in_past\/mod.in_past.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1399,6 +1483,17 @@
       "inputAbbreviatedPath" : "\/_app\/core\/bundles\/in_past\/mod.in_past.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/admin\/themes\/ascent\/webfonts\/ss-pika\/ss-pika-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/webfonts\/ss-pika\/ss-pika-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/webfonts\/ss-pika\/ss-pika-ck-ck.js",
+      "fileType" : 64
     },
     "\/_app\/vendor\/Buzz\/Listener\/History\/Journal.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1409,21 +1504,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/api\/html.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/api\/html.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Respect\/Validation\/Exceptions\/IntException.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/IntException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Symfony\/Component\/Finder\/Iterator\/FilePathsIterator.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Finder\/Iterator\/FilePathsIterator.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1445,12 +1540,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NoWhitespaceException.php" : {
+    "\/admin\/themes\/ascent\/js\/vendor\/bootstrap-datepicker.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/bootstrap-datepicker.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/bootstrap-datepicker.min-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/VowelException.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NoWhitespaceException.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/VowelException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1460,6 +1566,35 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/bundles\/password\/ft.password.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NoWhitespaceException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NoWhitespaceException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Whoops\/Resources\/js\/whoops.base-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Whoops\/Resources\/js\/whoops.base-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_app\/vendor\/Whoops\/Resources\/js\/whoops.base-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/_app\/vendor\/Slim\/LogWriter.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Slim\/LogWriter.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1482,15 +1617,6 @@
       "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/markitup\/h5.png",
       "initialSize" : 205,
       "fileType" : 8192
-    },
-    "\/_app\/vendor\/Slim\/LogWriter.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Slim\/LogWriter.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_app\/vendor\/Respect\/Validation\/Exceptions\/DirectoryException.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1539,21 +1665,21 @@
       "initialSize" : 226,
       "fileType" : 8192
     },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/SymbolicLink.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/SymbolicLink.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/core\/extend\/modifier.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/extend\/modifier.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_app\/vendor\/Symfony\/Component\/Filesystem\/Exception\/IOException.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Filesystem\/Exception\/IOException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1568,6 +1694,24 @@
       "outputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/redactor\/js\/redactor.min-ck.js",
       "fileType" : 64
     },
+    "\/_app\/vendor\/Symfony\/Component\/Filesystem\/Exception\/IOException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Filesystem\/Exception\/IOException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/DigitException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/DigitException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/img\/portfolio-images\/McAden-home-s-w307-q75-m1395779383.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1579,12 +1723,12 @@
       "initialSize" : 23424,
       "fileType" : 4096
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/Vowels.php" : {
+    "\/_app\/vendor\/Whoops\/Exception\/ErrorException.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Vowels.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Whoops\/Exception\/ErrorException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1606,15 +1750,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Whoops\/Exception\/ErrorException.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Whoops\/Exception\/ErrorException.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/admin\/themes\/ascent\/webfonts\/ss-pika\/ss-pika.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1623,6 +1758,15 @@
       "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/webfonts\/ss-pika\/ss-pika.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Vowels.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Vowels.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_app\/vendor\/Michelf\/MarkdownExtra.inc.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1673,25 +1817,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Symfony\/Component\/Finder\/Adapter\/AbstractFindAdapter.php" : {
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Tld.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Finder\/Adapter\/AbstractFindAdapter.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Tld.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/icon-sharepoint.png" : {
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/JsonException.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/icon-sharepoint.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/icon-sharepoint.png",
-      "initialSize" : 2871,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/JsonException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_app\/vendor\/Symfony\/Component\/Finder\/Iterator\/FilecontentFilterIterator.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1713,15 +1855,6 @@
       "outputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/js\/redactor.min-ck.js",
       "fileType" : 64
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/Negative.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Negative.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/img\/portfolio-images\/Sanregret-home-r-w307-q75-m1395950977.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1733,23 +1866,34 @@
       "initialSize" : 23367,
       "fileType" : 4096
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/Tld.php" : {
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Negative.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Tld.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Negative.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/JsonException.php" : {
+    "\/_app\/vendor\/Symfony\/Component\/Finder\/Adapter\/AbstractFindAdapter.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/JsonException.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Finder\/Adapter\/AbstractFindAdapter.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/assets\/icon-sharepoint.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/icon-sharepoint.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/icon-sharepoint.png",
+      "initialSize" : 2871,
+      "fileType" : 8192
     },
     "\/_themes\/unittwo\/partials\/home-article.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1782,6 +1926,15 @@
       "initialSize" : 609,
       "fileType" : 8192
     },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/UploadedException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/UploadedException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/img\/portfolio-images\/McAden-home-r-w500-q75-m1395779383.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1808,6 +1961,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_themes\/unittwo\/templates\/default.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CnpjException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CnpjException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1858,21 +2020,21 @@
       "initialSize" : 165,
       "fileType" : 8192
     },
-    "\/_app\/core\/bundles\/in_future\/mod.in_future.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/in_future\/mod.in_future.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Respect\/Validation\/Rules\/Not.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Not.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/core\/bundles\/in_future\/mod.in_future.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/in_future\/mod.in_future.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1894,6 +2056,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/admin\/themes\/ascent\/js\/vendor\/underscore.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/underscore.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/underscore.min-ck-ck.js",
+      "fileType" : 64
+    },
     "\/img\/portfolio-images\/WestlakePlasticSurgery-videos.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1904,6 +2077,17 @@
       "outputAbbreviatedPath" : "\/img\/portfolio-images\/WestlakePlasticSurgery-videos.jpg",
       "initialSize" : 90115,
       "fileType" : 4096
+    },
+    "\/admin\/themes\/ascent\/js\/vendor\/jquery.markitup-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery.markitup-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery.markitup-ck-ck.js",
+      "fileType" : 64
     },
     "\/_app\/vendor\/Stampie\/Exception\/ApiException.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1938,6 +2122,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/bundles\/distance_in_mi_from\/mod.distance_in_mi_from.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Vowel.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Vowel.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1995,12 +2188,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/admin\/themes\/ascent\/templates\/security.php" : {
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/LeapYear.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/templates\/security.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/LeapYear.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2015,21 +2208,12 @@
       "outputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/js\/fullscreen-ck.js",
       "fileType" : 64
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/LeapYear.php" : {
+    "\/admin\/themes\/ascent\/templates\/security.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/LeapYear.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/Consonants.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Consonants.php",
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/templates\/security.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2039,6 +2223,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/members\/memberset.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Consonants.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Consonants.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2052,6 +2245,15 @@
       "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/chosen-sprite@2x.png",
       "initialSize" : 872,
       "fileType" : 8192
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Cntrl.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Cntrl.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_logs\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2349,12 +2551,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/AlwaysInvalid.php" : {
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Phone.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/AlwaysInvalid.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Phone.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2369,12 +2571,30 @@
       "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery-ui-custom.min-ck.js",
       "fileType" : 64
     },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Writable.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Writable.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/vendor\/Respect\/Validation\/Rules\/CountryCode.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/CountryCode.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Exists.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Exists.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2388,6 +2608,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/_themes\/unittwo\/js\/vendor\/jquery.cookie-ck.js",
       "fileType" : 64
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/AlwaysInvalid.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/AlwaysInvalid.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_app\/core\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2443,15 +2672,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/LeapDate.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/LeapDate.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Slim\/Exception\/Pass.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2467,6 +2687,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Finder\/Iterator\/RecursiveDirectoryIterator.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/LeapDate.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/LeapDate.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2687,14 +2916,16 @@
       "initialSize" : 2477,
       "fileType" : 8192
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/Arr.php" : {
+    "\/admin\/themes\/ascent\/Gruntfile-ck.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Arr.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/Gruntfile-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/Gruntfile-ck-ck.js",
+      "fileType" : 64
     },
     "\/_app\/core\/members\/memberservice.php" : {
       "ignoreWasSetByUser" : 0,
@@ -2702,6 +2933,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/members\/memberservice.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Arr.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Arr.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2725,15 +2965,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/member.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/member.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_themes\/unittwo\/js\/vendor\/placeholder.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2744,6 +2975,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/_themes\/unittwo\/js\/vendor\/placeholder-ck.js",
       "fileType" : 64
+    },
+    "\/_app\/core\/member.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/member.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_app\/core\/bundles\/users\/ft.users.php" : {
       "ignoreWasSetByUser" : 0,
@@ -2922,6 +3162,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_app\/core\/bundles\/redactor\/redactor\/js\/fullscreen-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/redactor\/js\/fullscreen-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/redactor\/js\/fullscreen-ck-ck.js",
+      "fileType" : 64
+    },
     "\/assets\/img\/boat-s-w400-h400-q75-m1391461923.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2932,6 +3183,15 @@
       "outputAbbreviatedPath" : "\/assets\/img\/boat-s-w400-h400-q75-m1391461923.jpg",
       "initialSize" : 17810,
       "fileType" : 4096
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NfeAccessKeyException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NfeAccessKeyException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_app\/vendor\/Symfony\/Component\/Finder\/Shell\/Command.php" : {
       "ignoreWasSetByUser" : 0,
@@ -3217,12 +3477,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_cache\/index.html" : {
+    "\/admin\/themes\/ascent\/js\/vendor\/bootstrap-timepicker.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/bootstrap-timepicker.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/bootstrap-timepicker.min-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/_app\/core\/api\/hook.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_cache\/index.html",
+      "inputAbbreviatedPath" : "\/_app\/core\/api\/hook.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3246,15 +3517,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/api\/hook.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/api\/hook.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/core\/bundles\/show_password\/ft.show_password.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3273,12 +3535,39 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_themes\/unittwo\/templates\/gallery.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_themes\/unittwo\/templates\/gallery.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Buzz\/Exception\/InvalidArgumentException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Buzz\/Exception\/InvalidArgumentException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/vendor\/Respect\/Validation\/Rules\/Multiple.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Multiple.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/core\/bundles\/tan\/mod.tan.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/tan\/mod.tan.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3300,24 +3589,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/bundles\/tan\/mod.tan.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/tan\/mod.tan.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_app\/vendor\/Buzz\/Exception\/InvalidArgumentException.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Buzz\/Exception\/InvalidArgumentException.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/img\/portfolio-images\/TravisPeak-home-s-w307-q75-m1395782457.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3328,15 +3599,6 @@
       "outputAbbreviatedPath" : "\/img\/portfolio-images\/TravisPeak-home-s-w307-q75-m1395782457.jpg",
       "initialSize" : 21466,
       "fileType" : 4096
-    },
-    "\/_themes\/unittwo\/templates\/gallery.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_themes\/unittwo\/templates\/gallery.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_app\/core\/bundles\/entries\/pi.entries.php" : {
       "ignoreWasSetByUser" : 0,
@@ -3353,6 +3615,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Finder\/Exception\/ShellCommandFailureException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Punct.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Punct.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3425,16 +3696,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/icon-gears.png" : {
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/NfeAccessKey.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/icon-gears.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/icon-gears.png",
-      "initialSize" : 4105,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/NfeAccessKey.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Stampie\/Adapter\/ResponseInterface.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Stampie\/Adapter\/ResponseInterface.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_app\/start.php" : {
       "ignoreWasSetByUser" : 0,
@@ -3442,15 +3720,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/start.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_add-ons\/raven\/examples\/form.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_add-ons\/raven\/examples\/form.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3463,12 +3732,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Stampie\/Adapter\/ResponseInterface.php" : {
+    "\/assets\/icon-gears.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Stampie\/Adapter\/ResponseInterface.php",
+      "inputAbbreviatedPath" : "\/assets\/icon-gears.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/icon-gears.png",
+      "initialSize" : 4105,
+      "fileType" : 8192
+    },
+    "\/_add-ons\/raven\/examples\/form.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_add-ons\/raven\/examples\/form.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3490,14 +3770,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/bundles\/subtract\/mod.subtract.php" : {
+    "\/admin\/themes\/ascent\/js\/vendor\/selectize.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/subtract\/mod.subtract.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/selectize.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/selectize.min-ck.js",
+      "fileType" : 64
     },
     "\/admin\/themes\/ascent\/js\/vendor\/bootstrap.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3519,16 +3801,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/admin\/themes\/ascent\/js\/vendor\/selectize.min.js" : {
+    "\/_app\/core\/bundles\/subtract\/mod.subtract.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/selectize.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/selectize.min-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/subtract\/mod.subtract.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_app\/vendor\/Whoops\/Util\/TemplateHelper.php" : {
       "ignoreWasSetByUser" : 0,
@@ -3685,6 +3965,15 @@
       "outputAbbreviatedPath" : "\/_themes\/unittwo\/js\/jquery.smooth-scroll.min-ck.js",
       "fileType" : 64
     },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/SymbolicLinkException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/SymbolicLinkException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/core\/bundles\/backspace\/mod.backspace.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3772,21 +4061,21 @@
       "initialSize" : 2616,
       "fileType" : 8192
     },
-    "\/_app\/core\/logwriter.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/logwriter.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Michelf\/SmartyPantsTypographer.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Michelf\/SmartyPantsTypographer.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Stampie\/Exception\/HttpException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Stampie\/Exception\/HttpException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3799,12 +4088,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Stampie\/Exception\/HttpException.php" : {
+    "\/_app\/core\/logwriter.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Stampie\/Exception\/HttpException.php",
+      "inputAbbreviatedPath" : "\/_app\/core\/logwriter.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3864,15 +4153,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/Contains.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Contains.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/img\/portfolio-images\/devices-apollo.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3902,6 +4182,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Contains.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Contains.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_themes\/unittwo\/templates\/feed.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3920,6 +4209,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/WritableException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/WritableException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/img\/portfolio-images\/McAden-home-r-w600-q75-m1395779383.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3931,15 +4229,6 @@
       "initialSize" : 25771,
       "fileType" : 4096
     },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/PerfectSquareException.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/PerfectSquareException.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/service-icons.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3950,6 +4239,24 @@
       "outputAbbreviatedPath" : "\/assets\/service-icons.png",
       "initialSize" : 17571,
       "fileType" : 8192
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/PerfectSquareException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/PerfectSquareException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/PunctException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/PunctException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/img\/portfolio-images\/McAden-home-r-w307-q75-m1395779383.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -4056,6 +4363,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/AbstractRegexRule.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/AbstractRegexRule.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/core\/bundles\/acos\/mod.acos.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4112,12 +4428,12 @@
       "initialSize" : 17894,
       "fileType" : 4096
     },
-    "\/_app\/vendor\/Buzz\/Listener\/BasicAuthListener.php" : {
+    "\/_cache\/_app\/cookie\/key.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Buzz\/Listener\/BasicAuthListener.php",
+      "inputAbbreviatedPath" : "\/_cache\/_app\/cookie\/key.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4130,14 +4446,25 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_cache\/_app\/cookie\/key.php" : {
+    "\/_app\/vendor\/Buzz\/Listener\/BasicAuthListener.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_cache\/_app\/cookie\/key.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Buzz\/Listener\/BasicAuthListener.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/admin\/themes\/ascent\/js\/vendor\/parsley.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/parsley.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/parsley.min-ck-ck.js",
+      "fileType" : 64
     },
     "\/_app\/vendor\/Respect\/Validation\/Exceptions\/ContainsException.php" : {
       "ignoreWasSetByUser" : 0,
@@ -4172,6 +4499,24 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Json.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Uploaded.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Uploaded.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/AbstractCtypeRule.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/AbstractCtypeRule.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4217,16 +4562,14 @@
       "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery.markitup-ck.js",
       "fileType" : 64
     },
-    "\/admin\/themes\/ascent\/img\/up-arrow.png" : {
+    "\/_app\/core\/bundles\/divide\/mod.divide.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/up-arrow.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/up-arrow.png",
-      "initialSize" : 96,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/divide\/mod.divide.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_app\/vendor\/Respect\/Validation\/Exceptions\/FloatException.php" : {
       "ignoreWasSetByUser" : 0,
@@ -4237,12 +4580,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/bundles\/divide\/mod.divide.php" : {
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Space.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/divide\/mod.divide.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Space.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4254,6 +4597,17 @@
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Base.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/admin\/themes\/ascent\/img\/up-arrow.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/up-arrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/up-arrow.png",
+      "initialSize" : 96,
+      "fileType" : 8192
     },
     "\/_app\/vendor\/Stampie\/Adapter\/NoopAdapter.php" : {
       "ignoreWasSetByUser" : 0,
@@ -4386,6 +4740,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/admin\/themes\/ascent\/js\/vendor\/moment.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/moment.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/moment.min-ck-ck.js",
+      "fileType" : 64
+    },
     "\/_app\/core\/bundles\/option_list\/mod.option_list.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4415,16 +4780,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/portfolio-images\/ApolloEndosurgery-home-s-w307-h133-q75-m1395782332.jpg" : {
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Charset.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/portfolio-images\/ApolloEndosurgery-home-s-w307-h133-q75-m1395782332.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/portfolio-images\/ApolloEndosurgery-home-s-w307-h133-q75-m1395782332.jpg",
-      "initialSize" : 5788,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Charset.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_app\/core\/bundles\/link\/mod.link.php" : {
       "ignoreWasSetByUser" : 0,
@@ -4435,12 +4798,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NotException.php" : {
+    "\/_app\/core\/api\/userauth.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NotException.php",
+      "inputAbbreviatedPath" : "\/_app\/core\/api\/userauth.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4450,6 +4813,26 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Sf.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/admin\/themes\/ascent\/img\/favicon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/favicon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/favicon.png",
+      "initialSize" : 299,
+      "fileType" : 8192
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NotException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/NotException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4471,25 +4854,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/admin\/themes\/ascent\/img\/favicon.png" : {
+    "\/img\/portfolio-images\/ApolloEndosurgery-home-s-w307-h133-q75-m1395782332.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/favicon.png",
+      "inputAbbreviatedPath" : "\/img\/portfolio-images\/ApolloEndosurgery-home-s-w307-h133-q75-m1395782332.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/favicon.png",
-      "initialSize" : 299,
-      "fileType" : 8192
-    },
-    "\/_app\/core\/api\/userauth.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/api\/userauth.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "outputAbbreviatedPath" : "\/img\/portfolio-images\/ApolloEndosurgery-home-s-w307-h133-q75-m1395782332.jpg",
+      "initialSize" : 5788,
+      "fileType" : 4096
     },
     "\/_themes\/unittwo\/templates\/taxonomies.html" : {
       "ignoreWasSetByUser" : 0,
@@ -4531,12 +4905,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/Alpha.php" : {
+    "\/_app\/vendor\/Carbon\/Carbon.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Alpha.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Carbon\/Carbon.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4549,6 +4923,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Alpha.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Alpha.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/admin\/themes\/ascent\/templates\/denied.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4558,12 +4941,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Carbon\/Carbon.php" : {
+    "\/_themes\/unittwo\/partials\/footer.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Carbon\/Carbon.php",
+      "inputAbbreviatedPath" : "\/_themes\/unittwo\/partials\/footer.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4594,14 +4977,25 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Intervention\/Image\/ImageServiceProvider.php" : {
+    "\/admin\/themes\/ascent\/scss\/vendor\/css\/default.date.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Intervention\/Image\/ImageServiceProvider.php",
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/scss\/vendor\/css\/default.date.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
+    },
+    "\/_app\/core\/bundles\/location\/js\/jquery.location-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/location\/js\/jquery.location-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_app\/core\/bundles\/location\/js\/jquery.location-ck-ck.js",
+      "fileType" : 64
     },
     "\/img\/portfolio-images\/Apollo-product-detail.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -4614,6 +5008,15 @@
       "initialSize" : 114717,
       "fileType" : 4096
     },
+    "\/_app\/vendor\/Intervention\/Image\/ImageServiceProvider.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Intervention\/Image\/ImageServiceProvider.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/admin\/themes\/ascent\/img\/markitup\/h1.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4624,6 +5027,15 @@
       "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/img\/markitup\/h1.png",
       "initialSize" : 149,
       "fileType" : 8192
+    },
+    "\/admin\/themes\/ascent\/scss\/vendor\/css\/default.time.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/scss\/vendor\/css\/default.time.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/_add-ons\/raven\/pi.raven.php" : {
       "ignoreWasSetByUser" : 0,
@@ -4679,6 +5091,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/admin\/themes\/ascent\/js\/ascent.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/ascent.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/ascent.min-ck-ck.js",
+      "fileType" : 64
+    },
     "\/admin\/themes\/ascent\/img\/markitup\/quotes.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4707,6 +5130,37 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/api\/localization.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/admin\/themes\/ascent\/js\/vendor\/bootstrap.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/bootstrap.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/bootstrap.min-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/admin\/themes\/ascent\/js\/vendor\/knockout.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/knockout.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/knockout.min-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CharsetException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CharsetException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4793,21 +5247,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/Even.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Even.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Buzz\/Message\/Form\/FormRequest.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Buzz\/Message\/Form\/FormRequest.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Even.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Even.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4903,6 +5357,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Xdigit.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Xdigit.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/core\/api\/pattern.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4963,6 +5426,26 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/bundles\/obfuscate\/pi.obfuscate.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/core\/bundles\/redactor\/js\/redactor.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/js\/redactor.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/js\/redactor.min-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/FileException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/FileException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5186,12 +5669,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/EachException.php" : {
+    "\/_app\/vendor\/Symfony\/Component\/Finder\/Adapter\/PhpAdapter.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/EachException.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Finder\/Adapter\/PhpAdapter.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5213,12 +5696,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Symfony\/Component\/Finder\/Adapter\/PhpAdapter.php" : {
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/EachException.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Finder\/Adapter\/PhpAdapter.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/EachException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5251,12 +5734,50 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_app\/core\/bundles\/redactor\/js\/fullscreen-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/js\/fullscreen-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/js\/fullscreen-ck-ck.js",
+      "fileType" : 64
+    },
     "\/_app\/core\/statamic.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/statamic.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Buzz\/Listener\/LoggerListener.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Buzz\/Listener\/LoggerListener.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Stampie\/Mailer\/PeytzMail.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Stampie\/Mailer\/PeytzMail.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/core\/api\/email.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/api\/email.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5271,30 +5792,12 @@
       "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/alertify.min-ck.js",
       "fileType" : 64
     },
-    "\/_app\/vendor\/Buzz\/Listener\/LoggerListener.php" : {
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Readable.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Buzz\/Listener\/LoggerListener.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_app\/core\/api\/email.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/api\/email.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_app\/vendor\/Stampie\/Mailer\/PeytzMail.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Stampie\/Mailer\/PeytzMail.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Readable.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5401,21 +5904,21 @@
       "initialSize" : 646,
       "fileType" : 8192
     },
-    "\/_app\/core\/bundles\/triple\/mod.triple.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/triple\/mod.triple.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Respect\/Validation\/Rules\/Slug.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Slug.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/core\/bundles\/triple\/mod.triple.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/triple\/mod.triple.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5466,14 +5969,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/api\/yaml.php" : {
+    "\/admin\/themes\/ascent\/js\/vendor\/spin.min-ck.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/api\/yaml.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/spin.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/spin.min-ck-ck.js",
+      "fileType" : 64
     },
     "\/_app\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -5481,6 +5986,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/core\/api\/yaml.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/api\/yaml.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5544,6 +6058,15 @@
       "initialSize" : 13510,
       "fileType" : 8192
     },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/PhoneException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/PhoneException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/vendor\/Respect\/Validation\/Rules\/Uppercase.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5591,21 +6114,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/admin\/themes\/ascent\/layouts\/default.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/layouts\/default.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CountryCodeException.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CountryCodeException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/admin\/themes\/ascent\/layouts\/default.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/layouts\/default.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5744,6 +6267,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/admin\/themes\/ascent\/js\/vendor\/jquery.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery.min-ck-ck.js",
+      "fileType" : 64
+    },
     "\/_app\/core\/bundles\/location\/js\/images\/marker-icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5792,6 +6326,24 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Buzz\/Client\/AbstractClient.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/XdigitException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/XdigitException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CntrlException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/CntrlException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5976,12 +6528,32 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/admin\/themes\/ascent\/js\/vendor\/keyboard.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/keyboard.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/keyboard.min-ck-ck.js",
+      "fileType" : 64
+    },
     "\/_app\/vendor\/Respect\/Validation\/Rules\/Ip.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Ip.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/ExistsException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/ExistsException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6021,15 +6593,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/bundles\/exponent\/mod.exponent.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/exponent\/mod.exponent.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/admin\/themes\/ascent\/templates\/pages.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6048,14 +6611,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_themes\/unittwo\/css\/foundation.css" : {
+    "\/_app\/core\/bundles\/exponent\/mod.exponent.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_themes\/unittwo\/css\/foundation.css",
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/exponent\/mod.exponent.php",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/_app\/core\/bundles\/redirect\/pi.redirect.php" : {
       "ignoreWasSetByUser" : 0,
@@ -6066,6 +6629,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_themes\/unittwo\/css\/foundation.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_themes\/unittwo\/css\/foundation.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/_app\/vendor\/Whoops\/Exception\/Inspector.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6074,6 +6646,17 @@
       "inputAbbreviatedPath" : "\/_app\/vendor\/Whoops\/Exception\/Inspector.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/_app\/core\/bundles\/redactor\/redactor\/js\/redactor.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/redactor\/js\/redactor.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_app\/core\/bundles\/redactor\/redactor\/js\/redactor.min-ck-ck.js",
+      "fileType" : 64
     },
     "\/admin\/themes\/ascent\/scss\/boilerplate.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -6087,12 +6670,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/NullValue.php" : {
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Consonant.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/NullValue.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Consonant.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6122,6 +6705,24 @@
       "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Domain.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/NullValue.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/NullValue.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/admin\/themes\/ascent\/css\/ascent.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/css\/ascent.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/_app\/vendor\/Respect\/Validation\/Rules\/OneOf.php" : {
       "ignoreWasSetByUser" : 0,
@@ -6165,6 +6766,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/bundles\/numeric\/mod.numeric.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/AbstractFilterRule.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/AbstractFilterRule.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6242,6 +6852,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/admin\/themes\/ascent\/js\/vendor\/jquery-ui-custom.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery-ui-custom.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery-ui-custom.min-ck-ck.js",
+      "fileType" : 64
+    },
     "\/_app\/vendor\/Respect\/Validation\/Exceptions\/AlphaException.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6305,16 +6926,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/portfolio-images\/WestlakePlasticSurgery-photos.png" : {
+    "\/_app\/vendor\/Intervention\/Image\/Facades\/Image.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/portfolio-images\/WestlakePlasticSurgery-photos.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/portfolio-images\/WestlakePlasticSurgery-photos.png",
-      "initialSize" : 539864,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Intervention\/Image\/Facades\/Image.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_app\/vendor\/Slim\/Middleware\/ContentTypes.php" : {
       "ignoreWasSetByUser" : 0,
@@ -6325,14 +6944,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Intervention\/Image\/Facades\/Image.php" : {
+    "\/img\/portfolio-images\/WestlakePlasticSurgery-photos.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Intervention\/Image\/Facades\/Image.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/portfolio-images\/WestlakePlasticSurgery-photos.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/portfolio-images\/WestlakePlasticSurgery-photos.png",
+      "initialSize" : 539864,
+      "fileType" : 8192
     },
     "\/_app\/core\/validate.php" : {
       "ignoreWasSetByUser" : 0,
@@ -6428,6 +7049,35 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/ConsonantException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/ConsonantException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/core\/bundles\/color\/js\/jquery.spectrum-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/color\/js\/jquery.spectrum-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_app\/core\/bundles\/color\/js\/jquery.spectrum-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/SpaceException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/SpaceException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/vendor\/Buzz\/Listener\/History\/Entry.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6473,6 +7123,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Prnt.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Prnt.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/vendor\/Respect\/Validation\/Rules\/In.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6490,6 +7149,17 @@
       "inputAbbreviatedPath" : "\/_app\/core\/bundles\/truncate\/pi.truncate.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/admin\/themes\/ascent\/js\/vendor\/jquery.tablesorter.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery.tablesorter.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery.tablesorter.min-ck-ck.js",
+      "fileType" : 64
     },
     "\/_app\/core\/bundles\/protect\/pi.protect.php" : {
       "ignoreWasSetByUser" : 0,
@@ -6540,6 +7210,17 @@
       "initialSize" : 163131,
       "fileType" : 4096
     },
+    "\/admin\/themes\/ascent\/js\/vendor\/dropzone.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/dropzone.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/dropzone.min-ck-ck.js",
+      "fileType" : 64
+    },
     "\/admin\/themes\/ascent\/scss\/responsive.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -6582,6 +7263,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/ReadableException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/ReadableException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/assets\/icon-network.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6593,21 +7283,21 @@
       "initialSize" : 2937,
       "fileType" : 8192
     },
-    "\/_app\/vendor\/Michelf\/MarkdownInterface.inc.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Michelf\/MarkdownInterface.inc.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Symfony\/Component\/Yaml\/Exception\/ParseException.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Yaml\/Exception\/ParseException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Symfony\/Component\/Filesystem\/Exception\/ExceptionInterface.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Filesystem\/Exception\/ExceptionInterface.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6629,12 +7319,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Symfony\/Component\/Filesystem\/Exception\/ExceptionInterface.php" : {
+    "\/_app\/vendor\/Michelf\/MarkdownInterface.inc.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Symfony\/Component\/Filesystem\/Exception\/ExceptionInterface.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Michelf\/MarkdownInterface.inc.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6675,6 +7365,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/keyboard.min-ck.js",
       "fileType" : 64
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Digit.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Digit.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/admin\/themes\/ascent\/scss\/mixins.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -6726,6 +7425,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/admin\/themes\/ascent\/js\/vendor\/markitup.set-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/markitup.set-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/markitup.set-ck-ck.js",
+      "fileType" : 64
+    },
     "\/_app\/vendor\/Stampie\/Mailer.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6764,12 +7474,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/Email.php" : {
+    "\/assets\/img\/cloud.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Email.php",
+      "inputAbbreviatedPath" : "\/assets\/img\/cloud.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/cloud.jpg",
+      "initialSize" : 12971,
+      "fileType" : 4096
+    },
+    "\/_app\/core\/extend\/addon.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/extend\/addon.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6782,25 +7503,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/extend\/addon.php" : {
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Email.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/extend\/addon.php",
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Email.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/img\/cloud.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/cloud.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/cloud.jpg",
-      "initialSize" : 12971,
-      "fileType" : 4096
     },
     "\/_app\/core\/bundles\/double\/mod.double.php" : {
       "ignoreWasSetByUser" : 0,
@@ -6847,12 +7557,32 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/admin\/themes\/ascent\/js\/vendor\/jquery.makeslug-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery.makeslug-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/admin\/themes\/ascent\/js\/vendor\/jquery.makeslug-ck-ck.js",
+      "fileType" : 64
+    },
     "\/_app\/vendor\/Buzz\/Message\/Factory\/FactoryInterface.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Buzz\/Message\/Factory\/FactoryInterface.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/GraphException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/GraphException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6883,21 +7613,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/BaseException.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/BaseException.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Buzz\/Util\/Cookie.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/vendor\/Buzz\/Util\/Cookie.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/BaseException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/BaseException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -7017,15 +7747,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Rules\/Hexa.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Hexa.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_themes\/unittwo\/js\/foundation\/foundation.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7048,6 +7769,15 @@
       "initialSize" : 83020,
       "fileType" : 4096
     },
+    "\/_app\/vendor\/Respect\/Validation\/Rules\/Hexa.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Rules\/Hexa.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_app\/vendor\/Symfony\/Component\/Finder\/Iterator\/ExcludeDirectoryFilterIterator.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7066,15 +7796,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/core\/bundles\/ceil\/mod.ceil.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/ceil\/mod.ceil.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/vendor\/Michelf\/SmartyPants.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7084,21 +7805,30 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/MinimumAgeException.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/MinimumAgeException.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_app\/core\/bundles\/color\/ft.color.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_app\/core\/bundles\/color\/ft.color.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/core\/bundles\/ceil\/mod.ceil.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/core\/bundles\/ceil\/mod.ceil.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_app\/vendor\/Respect\/Validation\/Exceptions\/MinimumAgeException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_app\/vendor\/Respect\/Validation\/Exceptions\/MinimumAgeException.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },

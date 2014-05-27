@@ -18,18 +18,20 @@
               </div>
             </div>
           </div>
-          <div class="folio-screenshot large-8 medium-8 small-12 columns">
-            {{ project_screenshots limit="1" }}
-              <img src="{{ screenshot }}" alt="{{ title }}" />
-            {{ /project_screenshots }}
+          {{ project_screenshots limit="1" }}
+          <div class="folio-screenshot large-8 medium-8 small-12 columns" >
+
+            <div class="screenshot-wrap" style="background-image: url( {{ screenshot }} );"></div>
+
           </div>
+          {{ /project_screenshots }}
         </div>
         {{ /entries:listing }}
 
         <div class="row services-header">
             <div class="small-12 columns">
                 <div class="section-title">
-                   
+
                     <h2 id="web-services">Backbeat Web Services</h2>
                 </div>
             </div>
@@ -50,10 +52,10 @@
             </div>
         </div>
 
-        <div class="row services-header">
+      <!--  <div class="row services-header">
           <div class="small-12 columns">
             <div class="section-title">
-                    
+
                     <h2 id="it-services">Robo6K Services</h2>
                 </div>
           </div>
@@ -72,5 +74,5 @@
 
                 </ul>
             </div>
-        
-        </div>
+
+        </div>-->

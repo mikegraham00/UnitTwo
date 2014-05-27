@@ -185,6 +185,13 @@ ul.errors {
 		display: flex;
 		display: -webkit-flex;
 	}
+	.screenshot-wrap {
+		width: 100%;
+		min-height: 400px;
+		background-size: cover;
+		background-position: top center;
+		background-repeat: no-repeat;
+	}
 	&.even {
 		.folio-desc-wrap {
 			order: 2;
@@ -381,7 +388,7 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-	
+
 	.folio-screenshot {
 		&:first-child {
 			//padding-right: 0;
